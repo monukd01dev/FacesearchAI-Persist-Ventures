@@ -10,10 +10,6 @@ export default function UserDetailsPage() {
 	const authDispatcher = useDispatch();
 	const navigate = useNavigate();
 	const handleDeleteAccount = async () => {
-		// Implement account deletion logic here
-		alert(
-			"Account deletion requested. This would typically involve a confirmation step and backend processing.",
-		);
 		try {
 			const response = await fetch(`${BASE_URL}api/users/delete/${uId}`, {
 				method: "DELETE",
