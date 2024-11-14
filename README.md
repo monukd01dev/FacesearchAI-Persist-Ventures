@@ -1,7 +1,7 @@
 
 # FacesearchAI
 
-### An AI-driven app that empowers users to search faces and explore premium features with integrated credits and subscription plans!
+### An AI-driven app that empowers users to search faces and explore premium features with integrated credits and subscription plans! [Watch Demo On Youtube](https://youtu.be/xNPEdx1Rr0Q)
 
 ![badge](https://img.shields.io/badge/version-1.0.0-brightgreen) [![React](https://img.shields.io/badge/Frontend-React-blue)](https://reactjs.org/) [![Express](https://img.shields.io/badge/Backend-Express-green)](https://expressjs.com/) [![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-blue)](https://www.postgresql.org/) [![Stripe](https://img.shields.io/badge/Payment-Stripe-red)](https://stripe.com/) 
 ---
