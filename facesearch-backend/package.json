@@ -1,0 +1,20 @@
+{
+  "name": "facesearch-backend",
+  "version": "1.0.0",
+  "description": "Backend for facesearchai.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "monukd01dev",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "pg": "^8.13.1",
+    "stripe": "^17.3.1"
+  }
+}
