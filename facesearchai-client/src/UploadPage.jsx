@@ -73,7 +73,7 @@ export default function UploadPage() {
 			if (result.length > 0) {
 				try {
 					const response = await fetch(
-						`http://localhost:5000/api/users/update-credits/${uId}`,
+						`${BASE_URL}api/users/update-credits/${uId}`,
 						{
 							// Ensure `userId` is defined appropriately
 							method: "PUT",
@@ -200,6 +200,9 @@ export default function UploadPage() {
 													name="image-upload"
 													type="file"
 													className="sr-only"
+													accept="image/*"
+													required
+													
 												/>
 											</label>
 											<p className="pl-1">or drag and drop</p>
